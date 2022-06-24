@@ -1,0 +1,71 @@
+{
+    "moduleId": "gongzhonghao",
+    "funcTree": {
+        "groupId": "xxx",
+        "groupName": "xxx",
+        "subGroup": [
+            {
+                "groupId": "xxx",
+                "groupName": "xxx",
+                "subGroup": [
+                    {
+                        "groupId": "xxx",
+                        "groupName": "xxx",
+                        "funcList": [
+                            {
+                                "functionId": "xxx",
+                                "functionName": "axx",
+                                "funcStatus": "enable",
+                                "functionDesc": "xxxxxxxxxx"
+                            }
+                        ]
+                    },
+                    {
+                        "groupId": "xxx",
+                        "groupName": "xxx"
+                    }
+                ],
+                "funcList": [
+                    {
+                        "functionId": "xxx",
+                        "functionName": "axx",
+                        "funcStatus": "enable",
+                        "functionDesc": "xxxxxxxxxx"
+                    }
+                ]
+            },
+            {
+                "groupId": "xxx",
+                "groupName": "xxx",
+                "funcList": [
+                    {
+                        "functionId": "xxx",
+                        "functionName": "axx",
+                        "funcStatus": "enable",
+                        "functionDesc": "xxxxxxxxxx"
+                    }
+                ]
+            },
+            {
+                "groupId": "xxx",
+                "groupName": "xxx",
+                "subGroup": [],
+                "funcList": []
+            }
+        ],
+        "funcList": [
+            {
+                "functionId": "xxx",
+                "functionName": "axx",
+                "funcStatus": "enable",
+                "functionDesc": "xxxxxxxxxx"
+            },
+            {
+                "functionId": "xxx",
+                "functionName": "axx",
+                "funcStatus": "disable",
+                "functionDesc": "xxxxxxxxxx"
+            }
+        ]
+    }
+}
