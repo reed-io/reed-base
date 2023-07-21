@@ -597,7 +597,7 @@ public abstract class ReedStarter {
         //annotation>remote>local>env
         String serverFromRemote = remoteConfiguration.get(REED_APM_SERVER);
         String serverFromLocal = localConfiguration.get(REED_APM_SERVER);
-        String serverFromEnv = System.getProperty(REED_APM_SERVER);
+        String serverFromEnv = System.getenv(REED_APM_SERVER);
         String server = StringUtil.isEmpty(serverFromRemote)?
                 (StringUtil.isEmpty(serverFromLocal)?serverFromEnv:serverFromLocal)
                 :serverFromRemote;
@@ -784,7 +784,7 @@ public abstract class ReedStarter {
             if("jre".equalsIgnoreCase(javaHome.getName())){
                 javaHome = javaHome.getParentFile();
             }
-            final String[] defaultToolsLocation = { "lib", "tools.jar" };
+            final String[] defaultToolsLocation = { "lib", "tools.jar", "lib" + File.separator + "tools.jar"};
             File tools = null;
             for (final String name : defaultToolsLocation) {
                 tools = new File(javaHome, name);
